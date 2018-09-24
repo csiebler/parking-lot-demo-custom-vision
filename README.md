@@ -20,4 +20,6 @@ prediction_key = "xxxx"
 
 # Known limitations
 
-For best detection results, make sure that the cars are not too small in the images. Otherwise, Custom Vision might miss them or detect a lot of misclassifications.
+For best detection results, make sure that the cars are not too small in the images. Otherwise, Custom Vision might miss them or detect a lot of misclassifications, as shown in this image (cars on the left were not detected, or very inaccurately):
+
+![Alt text](doc/too_small.jpg)
