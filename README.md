@@ -1,2 +1,21 @@
 # parking-lot-demo-custom-vision
-Demo for determining empty parking spots using Azure Custom Vision
+
+Demo for determining occupied parking spots using Azure Custom Vision.
+
+| Input Image | Detection Results |
+| ------------- |:-------------:|
+| ![Alt text](doc/input.jpg)| ![Alt text](doc/output.jpg) |
+
+
+# Instructions
+
+1. Sign up for [Custom Vision](https://www.customvision.ai) 
+1. Run the notebook
+1. Goto the [Custom Vision Settings](https://www.customvision.ai/projects#/settings) and copy/paste the `Training Key` and `Prediction Key` to the notebook in the first cell:
+
+```python
+training_key = "xxxx"
+prediction_key = "xxxx"
+```
+
+Done!
