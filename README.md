@@ -18,4 +18,6 @@ training_key = "xxxx"
 prediction_key = "xxxx"
 ```
 
-Done!
+# Known limitations
+
+For best detection results, make sure that the cars are not too small in the images. Otherwise, Custom Vision might miss them or detect a lot of misclassifications.
