@@ -11,12 +11,14 @@ Demo for determining occupied parking spots using Azure Custom Vision.
 
 1. Sign up for [Custom Vision](https://www.customvision.ai) 
 1. Run the notebook
-1. Goto the [Custom Vision Settings](https://www.customvision.ai/projects#/settings) and copy/paste the `Training Key` and `Prediction Key` to the notebook in the first cell:
+1. Goto the [Custom Vision Settings](https://www.customvision.ai/projects#/settings) and copy/paste the `Training Key` and `Prediction Key`for the limited trial to the notebook in the first cell (paid subscription is currently not supported for object detection in Custom Vision):
 
 ```python
 training_key = "xxxx"
 prediction_key = "xxxx"
 ```
+
+
 
 # Known limitations
 
