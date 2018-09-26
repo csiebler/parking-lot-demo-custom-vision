@@ -18,10 +18,9 @@ training_key = "xxxx"
 prediction_key = "xxxx"
 ```
 
-
-
 # Known limitations
 
-For best detection results, make sure that the cars are not too small in the images. Otherwise, Custom Vision might miss them or detect a lot of misclassifications, as shown in this image (cars on the left were not detected, or very inaccurately):
+* All cars needs to be aligned horizontally, as the detection is only trained on horizontally positioned parking spots.
+* For best detection results, make sure that the cars are not too small in the images. Otherwise, Custom Vision might miss them or detect a lot of misclassifications, as shown in this image (cars on the left were not detected, or very inaccurately):
 
 ![Alt text](doc/too_small.jpg)
