@@ -2,10 +2,11 @@
 
 Demo for determining occupied parking spots using Azure Custom Vision.
 
+![Alt text](doc/parkinglot.jpg)
+
 | Input Image | Detection Results |
 | ------------- |:-------------:|
 | ![Alt text](doc/input.jpg)| ![Alt text](doc/output.jpg) |
-
 
 # Instructions
 
